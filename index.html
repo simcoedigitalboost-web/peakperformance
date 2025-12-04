@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peak Performance Fitness | Personal Training in Orillia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">PEAK PERFORMANCE</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <a href="contact.html" class="nav-cta">Book a Consultation</a>
+            <div class="nav-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    <div class="mobile-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+        <a href="contact.html">Book a Consultation</a>
+    </div>
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-toggle').classList.toggle('active');
+            document.querySelector('.mobile-menu').classList.toggle('active');
+        }
+    </script>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>This Isn't a Gym.<br><span class="highlight">It's Your Edge.</span></h1>
+            <p class="hero-sub">Private personal training studio in Orillia. Every session coached. No one coasting.</p>
+            <div class="hero-buttons">
+                <a href="contact.html" class="btn btn-primary">Start Training</a>
+                <a href="services.html" class="btn btn-secondary">See Programs</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/interior.jpg" alt="Peak Performance Fitness gym interior">
+        </div>
+    </header>
+
+    <section class="difference">
+        <div class="container">
+            <h2>The Difference</h2>
+            <div class="difference-grid">
+                <div class="diff-card">
+                    <h3>No Crowds. No Waiting.</h3>
+                    <p>This is a private facility. When you're here, the space is yours. No fighting for equipment, no distractions, no wasted time.</p>
+                </div>
+                <div class="diff-card">
+                    <h3>Never Alone on the Floor</h3>
+                    <p>Every session is coached. Every rep is watched. Someone's in your corner making sure you're doing it right and pushing you to do it better.</p>
+                </div>
+                <div class="diff-card">
+                    <h3>Built Around Your Life</h3>
+                    <p>Your schedule, your goals, your starting point. We meet you where you are and build something that actually fits - not a template, a plan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="who-we-train">
+        <div class="container">
+            <h2>Who This Is For</h2>
+            <div class="who-grid">
+                <div class="who-card">
+                    <h3>You know you're capable of more.</h3>
+                    <p>You've felt it. The gap between where you are and where you could be. You're not looking for a gym. You're looking for the push to close that gap.</p>
+                </div>
+                <div class="who-card">
+                    <h3>You're building something.</h3>
+                    <p>An athlete. A future. Your kid has the talent - now they need the foundation. Real development, not just drills.</p>
+                </div>
+                <div class="who-card">
+                    <h3>You're rebuilding.</h3>
+                    <p>After injury. After years away. After life got in the way. You're not starting over - you're coming back stronger, smarter, with someone who knows how to get you there.</p>
+                </div>
+                <div class="who-card">
+                    <h3>You're done settling.</h3>
+                    <p>For chain gyms that forgot your name. For workouts that don't work. For feeling like you're just going through the motions. You want results, and you want someone invested in getting you there.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="results">
+        <div class="container">
+            <h2>What It Looks Like</h2>
+            <div class="testimonial-grid">
+                <blockquote class="testimonial">
+                    <p>"In 6 months I've gained strength, about 8 lbs of muscle, and lost 2 inches on my waist. They listened to my goals and focused on those goals rather than 'do what everyone else is doing.'"</p>
+                    <cite>- Peak Performance Client</cite>
+                </blockquote>
+                <blockquote class="testimonial">
+                    <p>"Peak Performance provides more than fitness, it creates a culture. Great people, amazing attitudes, functional training."</p>
+                    <cite>- Peak Performance Client</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Start?</h2>
+            <p>Book a free consultation. No pressure, no pitch - just a conversation about where you are and where you want to be.</p>
+            <a href="contact.html" class="btn btn-primary btn-large">Book Your Consultation</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-info">
+                    <h3>Peak Performance Fitness</h3>
+                    <p>408 Laclie Street<br>Orillia, ON L3V 4P2</p>
+                    <p><a href="tel:7058261169">(705) 826-1169</a></p>
+                </div>
+                <div class="footer-hours">
+                    <h4>Hours</h4>
+                    <p>Monday - Friday: 6am - 8pm<br>Saturday - Sunday: 8am - 12pm</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Peak Performance Fitness. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
