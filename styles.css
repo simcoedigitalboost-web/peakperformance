@@ -771,6 +771,11 @@ a:hover {
     letter-spacing: 0.2em;
 }
 
+/* Mobile Navigation Toggle - Hidden by default, shown on mobile */
+.nav-toggle {
+    display: none;
+}
+
 /* ========================================
    RESPONSIVE
    ======================================== */
@@ -929,8 +934,4 @@ a:hover {
     .service-card {
         padding: 30px;
     }
-}
-
-.nav-toggle {
-    display: none;
 }
